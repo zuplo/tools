@@ -1,0 +1,19 @@
+{
+  "name": "zudoku-agent-skills",
+  "owner": {
+    "name": "Zuplo",
+    "email": "team@zuplo.com"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "zudoku-skills",
+      "description": "Comprehensive Zudoku framework skill with progressive disclosure. Teaches documentation lookup (embedded docs from node_modules, remote docs from zudoku.dev/llms.txt), project setup, troubleshooting, and migrations. Single skill for all Zudoku development.",
+      "skills": ["./skills/zudoku"],
+      "source": "./",
+      "strict": false
+    }
+  ]
+}
