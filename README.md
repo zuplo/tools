@@ -1,6 +1,6 @@
-# Zudoku Agent Skills
+# Zuplo Agent Skills
 
-Official Zudoku skills for agents working with the [Zudoku framework](https://zudoku.dev). Zudoku is a framework for building beautiful API documentation sites and developer portals.
+Official agent skills for [Zuplo](https://zuplo.com) and [Zudoku](https://zudoku.dev). Includes skills for the Zuplo API gateway and the Zudoku documentation framework.
 
 ## Installation
 
@@ -15,6 +15,16 @@ npx skills add https://zudoku.dev/
 ```
 
 ## Included skills
+
+### zuplo
+
+Comprehensive skill for all Zuplo API gateway development. Uses progressive disclosure with reference files covering:
+
+- **Documentation Lookup** (`references/docs-lookup.md`): How to find and fetch Zuplo docs (`llms.txt`, individual pages)
+- **Policy Guide** (`references/policies.md`): Discovering, understanding, and configuring all built-in policies
+- **Core Concepts** (`references/concepts.md`): Full platform architecture — request pipeline, handlers, runtime objects, caching, auth, deployment
+
+Main skill file teaches the documentation-first workflow and routes to appropriate reference files.
 
 ### zudoku
 
@@ -58,6 +68,8 @@ Contributions welcome!
 
 ## Resources
 
+- [Zuplo](https://zuplo.com)
+- [Zuplo Docs](https://zuplo.com/docs)
 - [Zudoku Docs](https://zudoku.dev/docs)
 - [Zudoku GitHub](https://github.com/zuplo/zudoku)
 - [Agent Skills Spec](https://agentskills.io)

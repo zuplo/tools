@@ -1,5 +1,5 @@
 {
-  "name": "zudoku-agent-skills",
+  "name": "zuplo-agent-skills",
   "owner": {
     "name": "Zuplo",
     "email": "team@zuplo.com"
@@ -12,6 +12,13 @@
       "name": "zudoku-skills",
       "description": "Comprehensive Zudoku framework skill with progressive disclosure. Teaches documentation lookup (embedded docs from node_modules, remote docs from zudoku.dev/llms.txt), project setup, troubleshooting, and migrations. Single skill for all Zudoku development.",
       "skills": ["./skills/zudoku"],
+      "source": "./",
+      "strict": false
+    },
+    {
+      "name": "zuplo-skills",
+      "description": "Comprehensive Zuplo API gateway skill. Teaches documentation lookup (llms.txt, individual doc pages), policy discovery and configuration, route setup, custom handlers, and the request pipeline. Use for all Zuplo development.",
+      "skills": ["./skills/zuplo"],
       "source": "./",
       "strict": false
     }

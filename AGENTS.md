@@ -1,14 +1,16 @@
 # AGENTS.md
 
-This file provides context for AI coding assistants (Cursor, GitHub Copilot, Claude Code, etc.) working with the Zudoku Agent Skills repository.
+This file provides context for AI coding assistants (Cursor, GitHub Copilot, Claude Code, etc.) working with the Zuplo Agent Skills repository.
 
 ## Project Overview
 
-The **Zudoku Agent Skills** repository provides official agent skills for coding agents working with the [Zudoku framework](https://zudoku.dev). These skills enable AI assistants to write accurate Zudoku code with production-ready patterns validated against the current codebase.
+The **Zuplo Agent Skills** repository provides official agent skills for coding agents working with [Zuplo](https://zuplo.com) products. These skills enable AI assistants to correctly configure and develop with the Zuplo API gateway and the Zudoku documentation framework.
 
 - **Repository**: https://github.com/zuplo/skills
+- **Zuplo**: https://zuplo.com
+- **Zuplo Documentation**: https://zuplo.com/docs
 - **Zudoku Framework**: https://github.com/zuplo/zudoku
-- **Documentation**: https://zudoku.dev/docs
+- **Zudoku Documentation**: https://zudoku.dev/docs
 - **License**: Apache-2.0
 
 ## Repository Structure
@@ -17,6 +19,7 @@ The **Zudoku Agent Skills** repository provides official agent skills for coding
 | ----------------- | -------------------------------------------------------------- |
 | `skills/`         | Agent skill definitions                                        |
 | `skills/zudoku/`  | Single comprehensive Zudoku skill with progressive disclosure  |
+| `skills/zuplo/`   | Comprehensive Zuplo API gateway skill with docs and policies   |
 
 ## Specification
 
@@ -30,22 +33,19 @@ Fetch the up-to-date [Agent Skills Specification](https://agentskills.io/specifi
 2. Add `SKILL.md` with proper frontmatter
 3. Include production-ready code patterns
 4. Add reference documentation in `references/` if needed
-5. Test patterns against current Zudoku codebase
+5. Test patterns against current documentation
 6. Update root `README.md`
 
 ### Updating Existing Skills
 
-1. **Validate against current code**: Always verify patterns against the latest Zudoku source code
-2. **Use embedded docs**: Check `node_modules/zudoku/` for current APIs and types
-3. **Test patterns**: Ensure all code examples are runnable
-4. **Update references**: Keep migration guides and troubleshooting current
-5. **Version alignment**: Note which Zudoku versions the patterns support
+1. **Validate against current docs**: Always verify patterns against the latest official documentation
+2. **Test patterns**: Ensure all code examples are runnable
+3. **Update references**: Keep reference files current with product changes
+4. **No marketing language**: Technical documentation only
 
 ### Code Pattern Requirements
 
 - **Completeness**: Patterns should be copy-paste ready
-- **Validation**: All APIs must be verified against current Zudoku codebase
 - **TODO placeholders**: Use `// TODO:` for user customization points
 - **Imports**: Include all necessary import statements
 - **Comments**: Explain non-obvious concepts, not syntax
-- **No marketing language**: Technical documentation only
