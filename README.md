@@ -4,7 +4,45 @@ Official [agent skills](https://agentskills.io) for [Zuplo](https://zuplo.com) a
 
 ## Installation
 
-Install from GitHub:
+### Claude Code
+
+Register this repo as a plugin marketplace, then install the skills:
+
+```
+/plugin marketplace add zuplo/skills
+/plugin install zuplo-skills@zuplo-agent-skills
+/plugin install zudoku-skills@zuplo-agent-skills
+```
+
+### Cursor
+
+Install via **Cursor Settings > Rules > Add Rule > Remote Rule (GitHub)** and enter this repo URL. Or copy skill directories into your project:
+
+```
+.cursor/skills/
+├── zuplo-guide/SKILL.md
+├── zuplo-project-setup/SKILL.md
+└── ...
+```
+
+Skills in `.cursor/skills/`, `.agents/skills/`, or `~/.cursor/skills/` are auto-discovered.
+
+### GitHub Copilot / VS Code
+
+Copilot reads `AGENTS.md` at the repo root automatically. Clone the skills you need into your project:
+
+```bash
+# Copy the AGENTS.md for general project context
+curl -o AGENTS.md https://raw.githubusercontent.com/zuplo/skills/main/AGENTS.md
+```
+
+Or use the `/create-skill` command in Copilot chat and reference this repo's skills as a starting point.
+
+### Codex (OpenAI)
+
+Codex reads `AGENTS.md` at the repo root. Add the Zuplo `AGENTS.md` to your project for project-level context.
+
+### Using the `skills` CLI
 
 ```bash
 npx skills add zuplo/skills
@@ -17,11 +55,13 @@ npx skills add https://zuplo.com/
 npx skills add https://zudoku.dev/
 ```
 
-Or clone manually:
+### Manual
 
 ```bash
 git clone https://github.com/zuplo/skills.git
 ```
+
+Then copy the skill directories you need into your project's skills directory.
 
 ## Documentation sources
 
