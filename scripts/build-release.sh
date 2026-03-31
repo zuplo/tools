@@ -7,7 +7,7 @@ set -euo pipefail
 #   ./scripts/build-release.sh <github-release-url-prefix>
 #
 # Example:
-#   ./scripts/build-release.sh https://github.com/zuplo/skills/releases/download/v1.0.0
+#   ./scripts/build-release.sh https://github.com/zuplo/tools/releases/download/v1.0.0
 #
 # Output:
 #   dist/

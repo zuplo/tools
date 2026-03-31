@@ -5,7 +5,7 @@ license: MIT
 metadata:
   author: Zuplo
   version: "2.0.0"
-  repository: https://github.com/zuplo/skills
+  repository: https://github.com/zuplo/tools
 ---
 
 # Zudoku Framework Guide

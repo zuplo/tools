@@ -9,7 +9,7 @@ Official [agent skills](https://agentskills.io) for [Zuplo](https://zuplo.com) a
 Register this repo as a plugin marketplace, then install the skills:
 
 ```
-/plugin marketplace add zuplo/skills
+/plugin marketplace add zuplo/tools
 /plugin install zuplo-skills@zuplo-tools
 /plugin install zudoku-skills@zuplo-tools
 ```
@@ -33,7 +33,7 @@ Copilot reads `AGENTS.md` at the repo root automatically. Clone the skills you n
 
 ```bash
 # Copy the AGENTS.md for general project context
-curl -o AGENTS.md https://raw.githubusercontent.com/zuplo/skills/main/AGENTS.md
+curl -o AGENTS.md https://raw.githubusercontent.com/zuplo/tools/main/AGENTS.md
 ```
 
 Or use the `/create-skill` command in Copilot chat and reference this repo's skills as a starting point.
@@ -45,7 +45,7 @@ Codex reads `AGENTS.md` at the repo root. Add the Zuplo `AGENTS.md` to your proj
 ### Using the `skills` CLI
 
 ```bash
-npx skills add zuplo/skills
+npx skills add zuplo/tools
 ```
 
 Or via [`.well-known` discovery](https://github.com/cloudflare/agent-skills-discovery-rfc):
@@ -58,7 +58,7 @@ npx skills add https://zudoku.dev/
 ### Manual
 
 ```bash
-git clone https://github.com/zuplo/skills.git
+git clone https://github.com/zuplo/tools.git
 ```
 
 Then copy the skill directories you need into your project's skills directory.

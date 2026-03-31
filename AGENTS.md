@@ -6,7 +6,7 @@ This file provides context for AI coding assistants (Cursor, GitHub Copilot, Cla
 
 The **Zuplo Agent Skills** repository provides official agent skills for coding agents working with [Zuplo](https://zuplo.com) products. These skills enable AI assistants to correctly configure and develop with the Zuplo API gateway and the Zudoku documentation framework.
 
-- **Repository**: https://github.com/zuplo/skills
+- **Repository**: https://github.com/zuplo/tools
 - **Zuplo**: https://zuplo.com
 - **Zuplo Documentation**: https://zuplo.com/docs
 - **Zudoku Framework**: https://github.com/zuplo/zudoku
