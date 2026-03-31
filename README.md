@@ -1,4 +1,4 @@
-# Zuplo Agent Skills
+# Zuplo Agent Tools
 
 Official [agent skills](https://agentskills.io) for [Zuplo](https://zuplo.com) and [Zudoku](https://zudoku.dev). These skills help AI coding assistants correctly configure and develop with the Zuplo API gateway and the Zudoku documentation framework.
 
